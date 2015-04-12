@@ -3,7 +3,8 @@
 # Author: Gunnar Farneback
 # See https://groups.google.com/forum/#!searchin/julia-users/decompress/julia-users/HbyFaJjfSs0/IhI1oqYbAtEJs
 #
-# A small change by NJWalker to take into account concatenated gzips
+# Cut and paste from gist https://gist.github.com/GunnarFarneback/8254567 apart from small change to take into
+# account concatenated gzips
 #
 
 # Huffman codes are internally represented by Vector{Vector{Int}},
